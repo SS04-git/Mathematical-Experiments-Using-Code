@@ -1,19 +1,13 @@
 project:
-  type: website
-
-website:
   title: "Mathematical Experiments Using Code"
-  navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+  type: website
+  output-dir: "_site"
+
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
-
+    df_print: paged
 editor: visual
+
 
